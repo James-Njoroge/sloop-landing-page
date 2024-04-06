@@ -11,7 +11,7 @@ type Member = {
 
 export default function TeamCard({ member }: { member: Member }) {
   return (
-    <div className="rounded-full h-[442px] w-[304px] flex flex-col items-center p-5 gap-y-6" style={{ backgroundColor: '#EE5522' }}>
+    <div className="rounded-full h-[442px] w-[304px] flex flex-col items-center p-5 gap-y-6" style={{ backgroundColor: '#64B7F3' }}>
       <Image
         src={member.image}
         height={264}

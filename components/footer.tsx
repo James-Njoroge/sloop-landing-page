@@ -18,7 +18,7 @@ export default function FooterComponent() {
             <Link
               href="https://jnjoroge.dev/"
               isExternal
-              className="text-[#EE5522] font-semibold text-xs md:text-md"
+              className="text-[#64B7F3] font-semibold text-xs md:text-md"
             >
               James Njoroge
             </Link>

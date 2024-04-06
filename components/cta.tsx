@@ -28,7 +28,7 @@ export default function CTA() {
             size="lg"
             color="secondary"
             className="w-44 text-black font-bold"
-            style={{ backgroundColor: '#EE5522' }}
+            style={{ backgroundColor: '#64B7F3' }}
             as={Link}
             href="mailto:mattar@colgate.edu"
           >
