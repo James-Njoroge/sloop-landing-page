@@ -16,8 +16,8 @@ export default function Mission() {
       </div>
       <div className="px-6 md:px-16 max-w-5xl gap-y-6 flex flex-col">
         <h2 className="text-4xl md:text-5xl font-clash-display">
-          Revolutionizing the <span className="text-primary">small</span>{" "}
-          business M&A <span className="text-secondary">space</span>
+          Revolutionizing the <span style={{ color: '#64b7f3' }}>small</span>{" "}
+          business M&A <span style={{ color: '#64b7f3' }}>space</span>
         </h2>
         <p>
         Our aim is to transform the small business sector throughout the USA by offering comprehensive strategies that simplify the sales process, bypass broker interactions, and provide products specifically designed to fulfill the distinct requirements of small businesses.
