@@ -18,9 +18,9 @@ export const metadata: Metadata = {
     { media: "(prefers-color-scheme: dark)", color: "black" },
   ],
   icons: {
-    icon: "/tree.svg",
-    shortcut: "/tree.svg",
-    apple: "/tree.svg",
+    icon: "/sloop-logo.svg",
+    shortcut: "/sloop-logo.svg",
+    apple: "/sloop-logo.svg",
   },
 };
 
@@ -42,10 +42,10 @@ export default function RootLayout({
           fontSans.className
         )}
       >
-        <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
+        <Providers themeProps={{ attribute: "class", defaultTheme: "light" }}>
           <div className="relative flex flex-col h-screen">
             <NavbarComponent />
-            <main className="py-24 z-0">{children}</main>
+            <main className="py-24 z-0" style={{ backgroundColor: '#EFEBE6' }}>{children}</main>
             <FooterComponent />
           </div>
         </Providers>
