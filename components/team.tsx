@@ -31,7 +31,7 @@ export default function Team() {
   return (
     <section id="team" className="py-12 md:py-28 flex flex-col px-4 md:px-16">
       <div className="flex flex-col gap-y-4">
-        <h3 className="font-bold text-2xl text-center md:text-left" style={{ color: '#64b7f3' }}>
+        <h3 className="font-bold text-2xl text-center md:text-left" style={{ color: '#FA7268' }}>
           Team
         </h3>
         <h2 className="font-clash-display text-4xl md:text-7xl text-center md:text-left">

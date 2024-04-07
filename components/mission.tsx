@@ -5,7 +5,7 @@ export default function Mission() {
       id="mission"
       className="max-w-5xl w-full mx-auto flex flex-col-reverse md:flex-row py-28 items-center"
     >
-      <h3 className="font-bold text-2xl text-center md:text-left" style={{ color: '#64b7f3' }}>
+      <h3 className="font-bold text-2xl text-center md:text-left" style={{ color: '#FA7268' }}>
           Mission
         </h3>
       <div className="px-8 mt-8 md:mt-12">

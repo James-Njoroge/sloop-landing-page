@@ -26,6 +26,7 @@ export default function Hero() {
           radius="full"
           size="lg"
           className="w-44 font-bold"
+          style={{ backgroundColor: '#FA7268'}}
           variant="ghost"
           as={Link}
           href="#contact"
@@ -33,20 +34,6 @@ export default function Hero() {
           Contact us
         </Button>
       </div>
-      {/* <Image
-        src={"/protruding-squares.svg"}
-        height={663}
-        width={918}
-        alt="Builders Garden hero illustration"
-        className="hidden md:block absolute -bottom-72 right-0"
-      /> */}
-      {/* <Image
-        src={"/hero-illustration-mobile.svg"}
-        height={263}
-        width={390}
-        alt="Builders Garden hero illustration"
-        className="block absolute md:hidden -bottom-6 right-0"
-      /> */}
     </section>
   );
 }
