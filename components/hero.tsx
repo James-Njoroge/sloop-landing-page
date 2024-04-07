@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <section
-      id="#hero"
+      id="hero"
       className="relative overflow-hidden pt-0 md:pt-16 pb-44 md:pb-44"
     >
       <div className="px-6 md:px-16 max-w-5xl gap-y-6 flex flex-col">
@@ -29,7 +29,7 @@ export default function Hero() {
           className="w-44 font-bold"
           variant="ghost"
           as={Link}
-          href="mailto:mattar@colgate.edu"
+          href="#contact"
         >
           Contact us
         </Button>

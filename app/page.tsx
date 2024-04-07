@@ -1,10 +1,7 @@
-import CTA from "@/components/cta";
+import CTA from "@/components/cta.client";
 import Hero from "@/components/hero";
 import Mission from "@/components/mission";
-import Partners from "@/components/partners";
-import Hackathons from "@/components/hackathons";
 import Team from "@/components/team";
-import Bounties from "@/components/bounties";
 
 export default function Home() {
   return (

@@ -3,6 +3,8 @@ export type SiteConfig = typeof siteConfig;
 export const siteConfig = {
   name: "Sloop Software",
   description: "Building software that solves problems.",
+  url: "https://sloop.markets",
+  favicon: "/favicon.ico",
   navItems: [
     {
       label: "Home",

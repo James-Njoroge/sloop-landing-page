@@ -5,7 +5,6 @@ type Member = {
   name: string;
   description: string;
   linkedin: string;
-  // farcaster?: string;
   image: string;
 };
 
@@ -33,17 +32,6 @@ export default function TeamCard({ member }: { member: Member }) {
             alt={"Linkedin logo"}
           />
         </Link>
-        {/* {member.farcaster && (
-          <Link href={member.farcaster} isExternal>
-            <Image
-              src={"/farcaster.svg"}
-              height={18}
-              width={18}
-              color="#222222"
-              alt={"Farcaster logo"}
-            />
-          </Link>
-        )} */}
       </div>
     </div>
   );
