@@ -1,6 +1,5 @@
 import { Button } from "@nextui-org/button";
 import { Link } from "@nextui-org/link";
-import Image from "next/image";
 
 export default function Hero() {
   return (
